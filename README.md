@@ -68,6 +68,127 @@ Moonshot AI (moonshot.ai) is a Chinese foundation model company whose stated mis
 
 **Areas:** Artificial Intelligence · LLM · Inference · Long Context · Kimi · Foundation Models
 
+## Kimi (Moonshot AI) on APIs.io
+
+Everything profiled for Kimi (Moonshot AI) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kimi-ai/](https://apis.io/providers/kimi-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [Moonshot AI Batch API](https://apis.io/apis/kimi-ai/kimi-ai-batch-api/) — The Batch API from Moonshot AI — 4 operation(s) for batch.
+- [Moonshot AI Billing API](https://apis.io/apis/kimi-ai/kimi-ai-billing-api/) — The Billing API from Moonshot AI — 1 operation(s) for billing.
+- [Moonshot AI Files API](https://apis.io/apis/kimi-ai/kimi-ai-files-api/) — The Files API from Moonshot AI — 3 operation(s) for files.
+- [Moonshot AI Models API](https://apis.io/apis/kimi-ai/kimi-ai-models-api/) — The Models API from Moonshot AI — 1 operation(s) for models.
+- [Moonshot AI Utilities API](https://apis.io/apis/kimi-ai/kimi-ai-utilities-api/) — The Utilities API from Moonshot AI — 2 operation(s) for utilities.
+- [Kimi Embeddings API](https://apis.io/apis/kimi-ai/kimi-ai-embeddings-api/) — OpenAI-compatible embeddings endpoint that returns vector representations of input text for semantic search, clustering, and retrieval-augmented generation…
+- [Kimi Fine-Tuning API](https://apis.io/apis/kimi-ai/kimi-ai-fine-tuning-api/) — Fine-tuning jobs endpoint for customizing Moonshot base models on customer-supplied training data. Mirrors the OpenAI fine-tuning surface.
+- [Kimi Tokenizer API](https://apis.io/apis/kimi-ai/kimi-ai-tokenizer-api/) — Helper endpoint exposed by the Moonshot platform for counting tokens against a given model's tokenizer prior to submission, useful for managing long-context…
+- [Kimi Assistant (kimi.com)](https://apis.io/apis/kimi-ai/kimi-ai-kimi-assistant/) — Consumer-facing AI assistant at kimi.com (also kimi.ai) powered by the Kimi models. Supports long-document upload, web search grounding, and tool use…
+- [Moonshot Open-Weights Releases](https://apis.io/apis/kimi-ai/kimi-ai-open-weights/) — Open-weight Kimi model releases (for example prior Kimi K1 / K2 checkpoints) published under the MoonshotAI GitHub organization for research and self-hosted…
+- [Moonshot AI Responses API](https://apis.io/apis/kimi-ai/kimi-ai-responses-api/) — POST /v1/responses — "Create a model response", an OpenAI Responses-compatible endpoint with function, custom and web-search tools and streaming events, as…
+- [Moonshot AI Tools API](https://apis.io/apis/kimi-ai/kimi-ai-tools-api/) — Official tools for models: POST /v1/tools/search (Web Search Basic), POST /v1/tools/search_pro (Web Search Pro) and POST /v1/tools/fetch (URL Fetch), as…
+- [Kimi (Moonshot AI) Messages API](https://apis.io/apis/kimi-ai/kimi-ai-messages-api/) — The Messages API from Kimi (Moonshot AI) — 1 operation(s) for messages.
+- [Kimi (Moonshot AI) Chat Completions API](https://apis.io/apis/kimi-ai/kimi-ai-chat-completions-api/) — The Chat Completions API from Kimi (Moonshot AI) — 1 operation(s) for chat completions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Moonshot AI Chat Completions Streaming API](https://apis.io/asyncapis/kimi-ai/kimi-ai-chat-completions-asyncapi/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Kimi Ai Agentic Access](https://apis.io/agentic-access/kimi-ai/kimi-ai-agentic-access/)
+
+#### JSON Schema (15)
+
+The data models the API reads and writes.
+
+- [BalanceResponse](https://apis.io/schemas/kimi-ai/kimi-ai-balance-response/)
+- [BatchCreateRequest](https://apis.io/schemas/kimi-ai/kimi-ai-batch-create-request/)
+- [BatchListResponse](https://apis.io/schemas/kimi-ai/kimi-ai-batch-list-response/)
+- [BatchObject](https://apis.io/schemas/kimi-ai/kimi-ai-batch-object/)
+- [ChatCompletionResponse](https://apis.io/schemas/kimi-ai/kimi-ai-chat-completion-response/)
+- [EstimateTokenRequest](https://apis.io/schemas/kimi-ai/kimi-ai-estimate-token-request/)
+- [EstimateTokenResponse](https://apis.io/schemas/kimi-ai/kimi-ai-estimate-token-response/)
+- [FileDeleteResponse](https://apis.io/schemas/kimi-ai/kimi-ai-file-delete-response/)
+- [FileListResponse](https://apis.io/schemas/kimi-ai/kimi-ai-file-list-response/)
+- [FileObject](https://apis.io/schemas/kimi-ai/kimi-ai-file-object/)
+- [kimi-k2](https://apis.io/schemas/kimi-ai/kimi-ai-kimi-k2-chat-request/)
+- [kimi-k2-thinking](https://apis.io/schemas/kimi-ai/kimi-ai-kimi-k2-thinking-chat-request/)
+- [kimi-k2.5](https://apis.io/schemas/kimi-ai/kimi-ai-kimi-k25-chat-request/)
+- [kimi-k2.6](https://apis.io/schemas/kimi-ai/kimi-ai-kimi-k26-chat-request/)
+- [moonshot-v1](https://apis.io/schemas/kimi-ai/kimi-ai-moonshot-v1-chat-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kimi Ai Context](https://apis.io/jsonld/kimi-ai/kimi-ai-context/)
+
+#### Collections (7)
+
+Postman and Open Collection request collections.
+
+- [Moonshot AI API](https://apis.io/collections/kimi-ai/open-kimi-ai/)
+- [Moonshot AI Batch API](https://apis.io/collections/kimi-ai/open-kimi-ai-batch-api/)
+- [Moonshot AI Batch Billing API](https://apis.io/collections/kimi-ai/open-kimi-ai-billing-api/)
+- [Moonshot AI Batch Chat API](https://apis.io/collections/kimi-ai/open-kimi-ai-chat-api/)
+- [Moonshot AI Batch Files API](https://apis.io/collections/kimi-ai/open-kimi-ai-files-api/)
+- [Moonshot AI Batch Models API](https://apis.io/collections/kimi-ai/open-kimi-ai-models-api/)
+- [Moonshot AI Batch Utilities API](https://apis.io/collections/kimi-ai/open-kimi-ai-utilities-api/)
+
+#### Overlays (9)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Kimi Ai Anthropic Messages Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-anthropic-messages-api-overlay/)
+- [Kimi Ai Batch Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-batch-api-overlay/)
+- [Kimi Ai Billing Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-billing-api-overlay/)
+- [Kimi Ai Chat Completions Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-chat-completions-api-overlay/)
+- [Kimi Ai Files Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-files-api-overlay/)
+- [Kimi Ai Models Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-models-api-overlay/)
+- [Kimi Ai Responses Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-responses-api-overlay/)
+- [Kimi Ai Tools Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-tools-api-overlay/)
+- [Kimi Ai Utilities Api Overlay](https://apis.io/overlays/kimi-ai/kimi-ai-utilities-api-overlay/)
+
+#### Governance rules (2)
+
+Spectral rulesets for the provider's contracts.
+
+- [Kimi (Moonshot AI) — asyncapi rules](https://apis.io/rules/kimi-ai/kimi-ai-asyncapi-spectral-rules/)
+- [Kimi (Moonshot AI) API Rules](https://apis.io/rules/kimi-ai/kimi-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kimi Ai Authentication](https://apis.io/security/kimi-ai/kimi-ai-authentication/)
+- [Kimi Ai Domain Security](https://apis.io/security/kimi-ai/kimi-ai-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Kimi Ai Plans Pricing](https://apis.io/plans/kimi-ai/kimi-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kimi Ai Rate Limits](https://apis.io/rate-limits/kimi-ai/kimi-ai-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Kimi Ai Finops](https://apis.io/finops/kimi-ai/kimi-ai-finops/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -84,8 +205,6 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Terms of service](https://platform.kimi.ai/docs/agreement/modeluse)
 - [Privacy policy](https://platform.kimi.ai/docs/agreement/userprivacy)
 - [GitHub](https://github.com/MoonshotAI)
-
-**APIs profiled:** 14
 
 ## API Evangelist rating
 
@@ -105,15 +224,15 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | derived |
-| Reversibility Documented | documented |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
 | MCP Server | — |
-| Auth Clarity | bearer |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
 | OpenAPI Examples | partial |
-| Rate Limit Signal | documented |
-| Event Surface Described | derived |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | derived (partial credit) |
 | Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
@@ -129,3 +248,15 @@ Links to the company's own pages. This repository publishes no copy of their spe
 **Regulatory alignment 15.5** — AI & Biometrics
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kimi-ai/](https://apis.io/providers/kimi-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kimi (Moonshot AI): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kimi-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
